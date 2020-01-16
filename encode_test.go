@@ -4,15 +4,14 @@ import (
 	"bytes"
 	"fmt"
 	"math"
+	"net"
+	"os"
 	"strconv"
 	"strings"
 	"time"
 
-	"net"
-	"os"
-
+	"github.com/ryho/yaml"
 	. "gopkg.in/check.v1"
-	"gopkg.in/yaml.v2"
 )
 
 type jsonNumberT string
